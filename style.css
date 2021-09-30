@@ -1,0 +1,21 @@
+h1 {
+    color:darkolivegreen;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.completed {
+    text-decoration: line-through;
+    color:#888;
+}
+
+body {
+    background-color: rgb(184, 197, 159);
+}
+
+.trashcan {
+    font-size: x-large;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
