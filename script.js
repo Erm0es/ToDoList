@@ -3,6 +3,7 @@ console.log ("Running..")
 
 //Variabler
 let completedCount = 0;
+const InputArray = [];
 
 
 //HTML-element
@@ -17,6 +18,7 @@ const lable = document.querySelector("p");
 button.addEventListener("click", 
 function(){
 const text = input.value;
+InputArray.push(text);
 
 const item = document.createElement("li");
 list.appendChild(item);
@@ -69,8 +71,8 @@ item.appendChild(trashcan);
 trashcan.addEventListener("click", 
 function(){
     
-    item.remove();
-    
+    item.remove(completedCount--);
+   
 },false);
 
 input.value = "";
