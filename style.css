@@ -1,21 +1,51 @@
 h1 {
-    color:darkolivegreen;
-    font-size: xx-large;
-    font-style: italic;
+    color:rgb(250, 174, 205);
+    font-size: xxx-large;
+    font-family:Trocchi;
+    
 }
 
+h3{ 
+    font-size:x-large;
+    font-family:monospace;
+    color:#f1acda;
+    text-decoration-color: black;
+}
+
+.ContainerBox{
+    background-image: url(images/Box-img.jpg);
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb(221, 164, 137);
+    text-align: center;
+
+}
 .completed {
-    text-decoration: line-through;
-    color:#888;
+    text-decoration: line-through;  
+    color:rgb(132, 160, 201);
+}
+ul {
+    padding: 0ch;
+    list-style-type: none;
+    color:rgb(104, 121, 197);
+    font-family:cursive;
+}
+
+.p{
+font-size: xx-large;
 }
 
 body {
-    background-color: rgb(184, 197, 159);
+    background-image: url("images/Img_rainbow.jfif");
+    background-size: cover;
+    background-repeat:space;
+    
+    
 }
 
 .trashcan {
     font-size: x-large;
     margin-left: 20px;
     cursor: pointer;
+    color: rgb(104, 121, 197);
 }
 

@@ -71,7 +71,7 @@ item.appendChild(trashcan);
 trashcan.addEventListener("click", 
 function(){
     
-    item.remove(completedCount--);
+    item.remove();
    
 },false);
 
