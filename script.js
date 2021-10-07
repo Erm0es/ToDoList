@@ -79,6 +79,9 @@ input.value = "";
 },false);
 
 
+//Länkarna
+
+
 
 
 
