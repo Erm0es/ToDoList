@@ -1,0 +1,71 @@
+h1{
+    font-size: xxx-large;
+    font-family: fantasy;
+    color:bisque;
+}
+
+h3{
+    font-size: x-large;
+    font-family: sans-serif;
+    color:bisque;
+}
+
+input{
+    background-color:bisque;
+}
+
+button{
+    background-color: bisque;
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+    font-size: x-large;
+    color:bisque;
+    animation: todo-item-enter 2s;
+    font-family:sans-serif;
+}
+
+@keyframes todo-item-enter{
+    0%{
+        transform:translate(-300px, 0)
+        
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+.trashcan {
+    font-size: x-large;
+    margin-left: 20px;
+    cursor:pointer;
+    color:bisque;
+}
+
+.trashcan:hover{
+    color: brown;
+}
+.ContainerBox{
+    text-align: center;
+    background-image: url(images/space.png);
+    padding:1%;
+    
+}
+
+p{
+    font-size: larger;
+    color:bisque;
+    font-family: sans-serif;
+}
+
+.completed{
+    text-decoration: line-through goldenrod;  
+}
+
+body{
+    background-image: url(images/space-odyssey.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}

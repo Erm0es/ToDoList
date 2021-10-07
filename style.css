@@ -32,11 +32,19 @@ button{
 
 ul{
     padding: 0ch;
-    list-style-type: none;
-    color:rgb(104, 121, 197);
+    list-style-type: none; 
     font-family:cursive;
 }
 
+li{
+    color:rgb(104, 121, 197);
+    transition: color 1s;
+}
+
+li:hover{
+    color:rgb(128, 0, 187);
+
+}
 
 p{
 
@@ -60,3 +68,6 @@ body {
     color: rgb(104, 121, 197);
 }
 
+.trashcan:hover{
+    color:rgb(226, 144, 226);
+}
