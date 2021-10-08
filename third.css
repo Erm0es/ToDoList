@@ -1,7 +1,7 @@
 h1{
     font-size: xxx-large;
     font-family: fantasy;
-    color:bisque;
+    color:bisque;  
 }
 
 h3{
@@ -27,6 +27,11 @@ li{
     animation: todo-item-enter 0.6s;
     animation-timing-function: cubic-bezier(0.34,1.56,0.64,1);
     font-family:sans-serif;
+    transition: color 1s;
+}
+
+li:hover{
+    color:goldenrod;
 }
 
 @keyframes todo-item-enter{
@@ -36,6 +41,17 @@ li{
     }
     100%{
         transform: translate(0, 0);
+    }
+}
+
+@keyframes slide-text{
+    from{
+        margin-right: 0%;
+        width: 300%;
+    }
+    to{
+        margin-right: 0%;
+        width: 100%
     }
 }
 .trashcan {
@@ -51,16 +67,21 @@ li{
 .ContainerBox{
     text-align: center;
     background-image: url(images/space.png);
+    animation-name: slide-text;
+    animation-duration: 2s;
 }
 
 p{
     font-size: larger;
     color:bisque;
     font-family: sans-serif;
+    animation-name: slide-text;
+    animation-duration: 3s;
 }
 
 .completed{
-    text-decoration: line-through goldenrod;  
+    text-decoration: line-through orangered;  
+    color:goldenrod;
 }
 
 body{
@@ -68,3 +89,9 @@ body{
     background-size: cover;
     background-repeat: repeat;
 }
+
+a{  
+    font-size: x-large;
+    color: aqua;
+}
+

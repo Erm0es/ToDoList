@@ -58,8 +58,6 @@ function(){
 },false);
 
 
-
-
 //Deklarationer för trashcan
 const trashcan = document.createElement("span");
 trashcan.innerHTML = "&#x1F5D1";
@@ -79,7 +77,6 @@ input.value = "";
 },false);
 
 
-//Länkarna
 
 
 
