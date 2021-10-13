@@ -1,7 +1,7 @@
 console.log ("Running..")
 
 
-//Variabler
+//Variables
 let completedCount = 0;
 const InputArray = [];
 
@@ -14,7 +14,7 @@ const lable = document.querySelector("p");
 
 
 
-                     //Funktion för button.
+                     //Function for button.
 button.addEventListener("click", 
 function(){
 const text = input.value;
@@ -29,7 +29,7 @@ item.appendChild(itemLabel);
 
 
 
-//Kontrollerar input.
+//verifys input.
 if(text.length == 0) {
     document.querySelector("small").innerHTML = "Write something first!";
     return;
@@ -41,7 +41,7 @@ else {
 
 
 
-//klicka på list-alternativ.
+//click on list.
 itemLabel.addEventListener("click", 
 function(){ 
 
@@ -58,14 +58,14 @@ function(){
 },false);
 
 
-//Deklarationer för trashcan
+//Declarations for trashcan
 const trashcan = document.createElement("span");
 trashcan.innerHTML = "&#x1F5D1";
 trashcan.setAttribute("class", "trashcan");
 item.appendChild(trashcan);
 
 
-//Funkton för trashcan
+//Functon for trashcan
 trashcan.addEventListener("click", 
 function(){
     
