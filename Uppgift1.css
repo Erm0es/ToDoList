@@ -1,0 +1,52 @@
+h1{
+    font-size: xxx-large; 
+}
+
+h3{
+    font-size: x-large;
+}
+
+input{
+    
+}
+
+button{
+
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+ font-size: x-large;
+}
+
+.completed{
+    text-decoration: line-through; 
+}
+.trashcan{
+    font-size: x-large;
+    margin-left: 20px;
+    cursor:pointer;
+}
+
+p{
+
+}
+
+
+
+/*-------------------------------------------------------*/
+
+body{
+    background-color:rgba(216, 142, 155, 0.753);
+}
+
+.ContainerBox{
+    text-align: center;
+    background-color: white;
+    
+    padding-bottom:10px;
+    padding-top: 10px;
+    
+}

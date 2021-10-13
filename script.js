@@ -23,8 +23,8 @@ InputArray.push(text);
 const item = document.createElement("li");
 list.appendChild(item);
 
-const itemLabel = document.createElement("span");
-itemLabel.innerHTML = text;
+const itemLabel = document.createElement("text.span");
+itemLabel.innerText = text;
 item.appendChild(itemLabel);
 
 
@@ -41,7 +41,7 @@ else {
 
 
 
-//click on list.
+//click on list
 itemLabel.addEventListener("click", 
 function(){ 
 
@@ -65,7 +65,7 @@ trashcan.setAttribute("class", "trashcan");
 item.appendChild(trashcan);
 
 
-//Functon for trashcan
+//Function for trashcan
 trashcan.addEventListener("click", 
 function(){
     
