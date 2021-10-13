@@ -1,18 +1,57 @@
-h1{
-    font-size: xxx-large; 
+/*Covering propertys*/
+
+html{
+    height: 100%;
+    background-image: linear-gradient(rgb(240, 200, 195),rgba(240, 104, 89, 0.938));
+    
+}
+body{
+    text-align: center;
+    font-size: xx-large;
+    
+
 }
 
+.ContainerBox{
+    background-color: white; 
+    padding: 10px;
+    width: 60%;
+    margin:auto;
+    margin-top: 40px;
+    animation: slide-in 1s;
+    animation-timing-function: cubic-bezier(0.34,1.56,0.64,1);
+    
+  }
+  @keyframes slide-in{
+    from{
+        margin-top: 100%;
+        width: 61%;
+    }
+
+    to{
+        margin-bottom: 100%;
+        width: 61%;
+    }
+
+  }
+
+  /*Items*/
+
 h3{
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 input{
-    
+    font-size: 25px;
+    border-radius: 5px 5px 5px 5px;
+    outline-color:blue;
 }
 
 button{
-
+    font-size: 25px;
+    border-radius: 5px 5px 5px 5px;
 }
+
 ul{
     list-style-type: none;
 }
@@ -24,6 +63,8 @@ li{
 .completed{
     text-decoration: line-through; 
 }
+
+
 .trashcan{
     font-size: x-large;
     margin-left: 20px;
@@ -34,19 +75,8 @@ p{
 
 }
 
-
-
-/*-------------------------------------------------------*/
-
-body{
-    background-color:rgba(216, 142, 155, 0.753);
+a{
+    font-size: small;
+    color:crimson;
 }
 
-.ContainerBox{
-    text-align: center;
-    background-color: white;
-    
-    padding-bottom:10px;
-    padding-top: 10px;
-    
-}
