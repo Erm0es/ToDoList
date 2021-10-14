@@ -40,20 +40,21 @@ body{
 @keyframes Fade-In{
     0% {opacity: 0}
     33%{opacity: 0}
-    50%{opacity: 0,5}
+    50%{opacity: 0,1}
+    75%{opacity: 0,5}
     100%{opacity: 1}
     
 }
 
   /*Items*/
 h1{
-    animation:Fade-In 0,5s forwards;
+    animation:Fade-In 2s forwards;
     
   }
 
 h3{
     font-size: xx-large;
-    animation: Fade-In 1s forwards;
+    animation: Fade-In 3s forwards;
     
 }
 
@@ -61,14 +62,14 @@ input{
     font-size: 25px;
     border-radius: 5px 5px 5px 5px;
     outline-color:blue;
-    animation:Fade-In 2s forwards;
+    animation:Fade-In 4s forwards;
     
 }
 
 button{
     font-size: 25px;
     border-radius: 5px 5px 5px 5px;
-    animation: Fade-In 2s forwards;
+    animation: Fade-In 4s forwards;
     
 }
 
@@ -116,7 +117,7 @@ li{
 }
 
 p{
-    animation: Fade-In 3s forwards;
+    animation: Fade-In 5s forwards;
     
 
 }
