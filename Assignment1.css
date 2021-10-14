@@ -112,6 +112,7 @@ li{
     font-size: x-large;
     margin-left: 20px;
     cursor:pointer;
+    animation: todo-item-enter 1s;
 }
 
 p{
