@@ -20,11 +20,11 @@ function(){
 const text = input.value;
 InputArray.push(text);
 
-const item = document.createElement("li");
+let item = document.createElement("li");
 list.appendChild(item);
 
-const itemLabel = document.createElement("text.span");
-itemLabel.innerText = text;
+const itemLabel = document.createElement("span");
+itemLabel.innerHTML = text;
 item.appendChild(itemLabel);
 
 
@@ -66,10 +66,10 @@ item.appendChild(trashcan);
 
 
 //Function for trashcan
-trashcan.addEventListener("click", 
-function(){
+trashcan.addEventListener("click", (completed) => {
     
     item.remove();
+    InputArray.pop();
    
 },false);
 

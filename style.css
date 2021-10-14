@@ -1,11 +1,12 @@
+html{
+    background-image: linear-gradient(to right, rgb(250, 173, 173),rgb(245, 205, 132),rgb(243, 243, 130),rgb(169, 238, 169),rgb(160, 160, 245),rgb(162, 135, 180),rgb(231, 173, 231));
+}
 h1{
     color:rgb(250, 174, 205);
-    font-size: xxx-large;
     font-family:Trocchi; 
 }
 
 h3{ 
-    font-size:x-large;
     font-family:monospace;
     color:#f1acda;
     
@@ -16,9 +17,13 @@ h3{
     padding: 10px;
     box-shadow: 0px 0px 10px rgb(221, 164, 137);
     text-align: center;
+    width: 80%;
+    margin:auto;
     
 }
-
+body{
+    font-size: x-large;
+}
 button{
  background-color: transparent;
  border-color: #f1acda;
@@ -31,14 +36,15 @@ button{
 }
 
 ul{
-    padding: 0ch;
+   
     list-style-type: none; 
-    font-family:cursive;
+    
 }
 
 li{
     color:rgb(104, 121, 197);
     transition: color 1s;
+    font-family:'Times New Roman', Times, serif
 }
 
 li:hover{
@@ -48,18 +54,11 @@ li:hover{
 
 p{
 
- font-size:larger;
+ font-size:medium;
  color:rgb(120, 126, 209);
 
 }
 
-body {
-    background-image: url("images/Img_rainbow.jfif");
-    background-size:cover;
-    background-repeat:repeat-y;
-    
-    
-}
 
 .trashcan {
     font-size: x-large;
@@ -70,4 +69,8 @@ body {
 
 .trashcan:hover{
     color:rgb(226, 144, 226);
+}
+
+a{
+    font-size: small;
 }
