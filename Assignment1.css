@@ -121,8 +121,9 @@ p{
 }
 small{
     color:red;
-    font-size:large;
+    font-weight: bold;
     font-style: italic;
+    font-size: x-large;
     animation: Input-Warning 2s linear infinite;
 
 }
