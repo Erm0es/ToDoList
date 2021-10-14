@@ -45,13 +45,13 @@ else {
 itemLabel.addEventListener("click", 
 function(){ 
 
-    if(item.getAttribute("class") == "completed"){
-        item.setAttribute("class", "");
+    if(itemLabel.getAttribute("class") == "completed"){
+        itemLabel.setAttribute("class", "");
         completedCount--;
     
     }
     else{
-        item.setAttribute("class", "completed");
+        itemLabel.setAttribute("class", "completed");
         completedCount++;
     }
     lable.innerText = `${completedCount} completed`;
@@ -66,10 +66,11 @@ item.appendChild(trashcan);
 
 
 //Function for trashcan
-trashcan.addEventListener("click", (completed) => {
+trashcan.addEventListener("click", 
+function(){
     
     item.remove();
-    
+    InputArray.pop();
 
 },false);
 
