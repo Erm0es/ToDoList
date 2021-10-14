@@ -69,25 +69,9 @@ item.appendChild(trashcan);
 trashcan.addEventListener("click", (completed) => {
     
     item.remove();
-    InputArray.pop();
-   
+    
+
 },false);
 
 input.value = "";
 },false);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

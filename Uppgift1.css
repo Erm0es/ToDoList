@@ -21,7 +21,7 @@ body{
     animation: slide-in 2s;
 
   }
-  
+
   @keyframes slide-in{
     0%{
         transform: translate(0, -300px);
